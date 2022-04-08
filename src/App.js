@@ -8,8 +8,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 export default function App() {
   
-  let pageSize = 6;
-  let apiKey = process.env.REACT_APP_NEWS_API;
+  const pageSize = 6;
+  const apiKey = process.env.REACT_APP_NEWS_API;
     return (
       <div>
         <Router>
